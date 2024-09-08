@@ -17,11 +17,10 @@ public class BotConfig {
     }
 
     @Bean
-    public Configuration getConfiguration(){
+    public Configuration getConfiguration() {
         Configuration configuration = new Configuration() {
             @Override
             public String getProperty(String key) {
-                // Fetch the appId and password from application.properties
                 if ("botAppId".equals(key)) {
                     return environment.getProperty("botAppId", "");
                 }

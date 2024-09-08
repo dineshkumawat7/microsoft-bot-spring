@@ -38,23 +38,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
-
-
-		<!--		<dependency>-->
-<!--			<groupId>com.microsoft.bot</groupId>-->
-<!--			<artifactId>bot-schema</artifactId>-->
-<!--			<version>4.14.3</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>com.microsoft.bot</groupId>-->
-<!--			<artifactId>bot-connector</artifactId>-->
-<!--			<version>4.14.3</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>com.microsoft.bot</groupId>-->
-<!--			<artifactId>bot-integration-core</artifactId>-->
-<!--			<version>4.14.3</version>-->
-<!--		</dependency>-->
 		<dependency>
 			<groupId>com.microsoft.bot</groupId>
 			<artifactId>bot-integration-spring</artifactId>
@@ -65,26 +48,6 @@
 			<artifactId>bot-connector</artifactId>
 			<version>4.14.3</version>
 		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>com.microsoft.bot</groupId>-->
-<!--			<artifactId>bot-builder</artifactId>-->
-<!--			<version>4.14.3</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>com.microsoft.bot</groupId>-->
-<!--			<artifactId>bot-dialogs</artifactId>-->
-<!--			<version>4.14.3</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>com.microsoft.bot</groupId>-->
-<!--			<artifactId>bot-ai-luis-v3</artifactId>-->
-<!--			<version>4.14.3</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>com.microsoft.bot</groupId>-->
-<!--			<artifactId>bot-applicationinsights</artifactId>-->
-<!--			<version>4.14.3</version>-->
-<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
