@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 public class GenerativeAIService {
 
     private final String API_URL = "https://api.openai.com/v1/chat/completions";
-    private final String API_KEY = "your-openai-api-key";
+    private final String API_KEY = "your-open-ai-api-key";
 
     public String generateText(String userInput) {
         RestTemplate restTemplate = new RestTemplate();
